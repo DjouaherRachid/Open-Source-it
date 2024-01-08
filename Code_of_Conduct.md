@@ -95,7 +95,7 @@ inclut d'éviter les interactions dans les espaces communautaires ainsi que les 
 comme les réseaux sociaux. La violation de ces conditions peut entraîner une suspension temporaire ou permanente
 interdire.
 
-### 3. Interdiction temporaire
+### 3. Bannissement temporaire
 
 **Impact sur la communauté** : Une violation grave des normes de la communauté, notamment
 un comportement inapproprié soutenu.
@@ -106,7 +106,7 @@ interaction privée avec les personnes impliquées, y compris les interactions n
 avec ceux qui appliquent le Code de conduite, est autorisé pendant cette période.
 La violation de ces conditions peut entraîner une interdiction permanente.
 
-### 4. Interdiction permanente
+### 4. Bannissement permanent
 
 **Impact sur la communauté** : démonstration d'un schéma de violation de la communauté
 normes, y compris un comportement inapproprié soutenu, le harcèlement d'un
