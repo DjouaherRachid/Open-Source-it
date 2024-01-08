@@ -1,0 +1,3 @@
+[flake8]
+exclude = .git, .github, src/.dist, src/apartments/__pycache__, src/authentication/migrations/__pycache__, src/authentication/__pycache__, src/housing/migrations/__pycache__, src/housing/__pycache__, src/users/migrations/__pycache__, src/users/__pycache__
+max-line-length = 120
