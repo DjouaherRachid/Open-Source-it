@@ -5,6 +5,12 @@ Dans ce projet, nous avons "open-sourcé" le projet de développement Web API du
 Il s'agit d'un API web pour la solution logicielle d'une entreprise.
 L'entreprise en question gère des locations d'appartement à court terme, généralement quelque jours.
 Plusieurs clients terminaux peuvent se connecter à l'API: Un backoffice pour les administrateurs, une application mobile pour les propriétaires, un site web publique pour les clients.
+## Les badges github :
+
+![Static Badge](https://img.shields.io/badge/version%20%3A%201.0.0-blue)
+![Build with Python](https://img.shields.io/badge/Built%20with-Python-blue)
+[![Generic badge](https://img.shields.io/badge/test-test-<BLUE>.svg)](https://shields.io/)
+![Last Commit](https://img.shields.io/github/last-commit/Mustapha/Open-source-it)
 
 ## Tester les APIs et Accéder à l'Interface Django Administration
 
