@@ -1,11 +1,8 @@
 from django.db import models
-from django.contrib.auth.models import AbstractUser
+from django.contrib.auth.models import AbstractUser, Group
+from django.db.models.signals import post_save
+from django.dispatch import receiver
 
-# Create your models here.
-
-'''
-    Base user
-'''
 class User(AbstractUser):
     # Base user model
 
@@ -26,3 +23,10 @@ class User(AbstractUser):
 
     def __str__(self):
         return self.username
+
+# Signal to create the group and add the user to it when a new user is saved
+@receiver(post_save, sender=User)
+def create_user_group(sender, instance, created, **kwargs):
+    if created:
+        group, _ = Group.objects.get_or_create(name=instance.role)
+        instance.groups.add(group)
