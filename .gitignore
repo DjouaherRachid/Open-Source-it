@@ -13,14 +13,15 @@ src/authentication/migrations/*
 src/apartments/__pycache__/*
 src/apartments/migrations/*
 
-
 src/housing/__pycache__/*
 src/housing/migrations/*
 
-
-
 src/users/__pycache__/*
 src/users/migrations/*
+
+src/db.sqlite3
+
+
 
 
 
