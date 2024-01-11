@@ -10,6 +10,16 @@ Il s'agit d'un API web pour la solution logicielle d'une entreprise.
 L'entreprise en question gère des locations d'appartement à court terme, généralement quelque jours.
 Plusieurs clients terminaux peuvent se connecter à l'API: Un backoffice pour les administrateurs, une application mobile pour les propriétaires, un site web publique pour les clients.
 
+### Comment installer notre programme ou le mettre en production
+
+Pour installer et utiliser le programme, il suffit simplement de suivre cette étape très simple
+
+1. **Cloner le Dépôt :**
+   - Ouvrez un terminal et exécutez la commande suivante pour cloner le dépôt :
+
+     ```bash
+     git clone https://github.com/DjouaherRachid/Open-Source-it.git
+     ```
 
 ## Tester les APIs et Accéder à l'Interface Django Administration
 
@@ -56,5 +66,58 @@ Avant de commencer à tester les fonctionnalités de l'API et d'accéder à l'in
      - Mot de passe : admin
 
    Vous aurez ainsi accès à l'interface Django Administration pour gérer les données de l'application.
+
+### Comment contribuer au projet
+
+Maintenant que vous pouvez correctement utiliser et tester notre API, vous pouvez commencer àcontribuer à notre projet ! Suivez ces étapes simples pour participer au développement et améliorer notre application :
+
+1. **Fork du projet :**
+   - Sur la page principale du [dépôt GitHub](https://github.com/DjouaherRachid/Open-Source-it), cliquez sur le bouton "Fork" en haut à droite de la page. Cela créera une copie du projet sur votre propre compte GitHub.
+
+2. **Clonez votre fork :**
+   - Ouvrez votre fork sur GitHub.
+   - Cliquez sur le bouton vert "Code" et copiez l'URL du dépôt.
+   - Ouvrez une invite de commande ou un terminal et exécutez la commande suivante pour cloner votre fork localement :
+
+     ```bash
+     git clone https://github.com/VOTRE_UTILISATEUR/Open-Source-it.git
+     ```
+
+3. **Créez une branche de fonctionnalité :**
+   - Avant de commencer à travailler, créez une nouvelle branche pour votre fonctionnalité ou correction :
+
+     ```bash
+     git checkout -b nom-de-votre-branche
+     ```
+
+4. **Effectuez les modifications :**
+   - Faites les modifications nécessaires dans le code. N'oubliez pas de suivre les meilleures pratiques de codage et les conventions du projet.
+
+5. **Testez vos modifications :**
+   - Assurez-vous que vos modifications ne provoquent pas d'erreurs. Vous pouvez exécuter les tests existants en utilisant la commande :
+
+     ```bash
+     python manage.py test
+     ```
+
+6. **Commit et poussez les modifications :**
+   - Une fois satisfait des modifications, effectuez un commit et poussez les changements vers votre fork :
+
+     ```bash
+     git add .
+     git commit -m "Description de vos modifications"
+     git push origin nom-de-votre-branche
+     ```
+
+7. **Soumettez une demande de tirage (Pull Request) :**
+   - Rendez-vous sur la page de votre fork sur GitHub.
+   - Cliquez sur le bouton "Compare & pull request" à côté de votre nouvelle branche.
+   - Remplissez le formulaire de demande de tirage en fournissant des informations claires sur vos modifications.
+
+8. **Attendez la revue :**
+   - Votre demande de tirage sera examinée par les mainteneurs du projet. Soyez prêt à répondre aux commentaires et apporter des modifications si nécessaire.
+
+En suivant ces étapes, vous contribuerez efficacement à notre projet. Merci pour votre engagement et vos efforts pour améliorer notre application !
+
 
 
