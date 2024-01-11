@@ -3,6 +3,7 @@
 <img src="https://img.shields.io/badge/Built%20with-Python-blue" height="20">
 <img src="https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray" height="20">
 <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" height="20">
+<img src="https://img.shields.io/badge/CI-Passing-brightgreen" height="20">
 <img src="https://img.shields.io/github/last-commit/DjouaherRachid/Open-Source-it?style=flat-square&color=purple&labelColor=white" height="20">
 
 Dans ce projet, nous avons "open-sourcé" le projet de développement Web API du 1er semestre de 2I à l'ESGI, intitulé "RESTpasTrop".
