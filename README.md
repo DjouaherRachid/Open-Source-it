@@ -27,7 +27,22 @@ Pour installer et utiliser le programme, il suffit simplement de suivre cette é
 
 Avant de commencer à tester les fonctionnalités de l'API et d'accéder à l'interface Django Administration, assurez-vous d'installer les dépendances nécessaires en suivant ces étapes :
 
-1. **Installer les Dépendances :**
+1. **Configuration de l'environnement virtuel :**
+
+   Il est recommandé d'utiliser un environnement virtuel pour isoler les dépendances de ce projet. Suivez les étapes ci-dessous pour créer et activer un environnement virtuel Python (venv) :
+
+   - Ouvrez un terminal dans le répertoire du projet.
+   - Tapez les commandes suivantes pour créer un nouveau environnement virtuel et l'activer :
+
+     ```bash
+     python -m venv venv
+     ```
+
+     ```bash
+     venv\bin\activate
+     ```
+
+2. **Installer les Dépendances :**
    - Ouvrez un terminal dans le répertoire du projet.
    - Tapez la commande suivante pour installer les dépendances requises :
 
@@ -37,7 +52,7 @@ Avant de commencer à tester les fonctionnalités de l'API et d'accéder à l'in
 
    Cela garantira que toutes les bibliothèques nécessaires sont installées.
 
-2. **Lancer le Serveur Django :**
+3. **Lancer le Serveur Django :**
    - Toujours dans le terminal du projet, tapez la commande suivante pour démarrer le serveur Django :
 
      ```bash
@@ -46,13 +61,13 @@ Avant de commencer à tester les fonctionnalités de l'API et d'accéder à l'in
 
    Cela lancera le serveur local à l'adresse http://127.0.0.1:8000/.
 
-3. **Importer la Collection Postman :**
+4. **Importer la Collection Postman :**
    - Ouvrez Postman.
    - Cliquez sur "Import" dans le coin supérieur gauche.
    - Sélectionnez "Importer le fichier" et choisissez le fichier YAML fourni.
    - La collection et les requêtes associées seront importées dans votre environnement Postman.
 
-4. **Créer un Super Utilisateur :**
+5. **Créer un Super Utilisateur :**
    - Dans le même terminal que précédemment, tapez la commande suivante pour créer un super utilisateur :
 
      ```bash
@@ -61,7 +76,7 @@ Avant de commencer à tester les fonctionnalités de l'API et d'accéder à l'in
 
    Suivez les instructions pour fournir les informations requises.
 
-5. **Accéder à l'Interface Django Administration :**
+6. **Accéder à l'Interface Django Administration :**
    - Ouvrez votre navigateur web et accédez à l'URL http://127.0.0.1:8000/admin/.
    - Connectez-vous en utilisant les données du super utilisateur que vous venez de créer. Par exemple :
      - Nom d'utilisateur : admin
