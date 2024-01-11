@@ -1,29 +1,19 @@
-# Environnement virtuel
-venv/
-env/
-
-# Fichiers de configuration spécifiques à l'environnement
-*.env
-
-# Fichiers générés par Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Fichiers générés par Django
-db.sqlite3
-
-# Fichiers de logs
-*.log
 
 # Fichiers générés par des outils d'édition
-.vscode/
-.idea/
+.vscode/*
 
-# Fichiers spécifiques à l'éditeur
-*.sublime-project
-*.sublime-workspace
 
 # Environnement virtuel
 myenv/*
+
+src/authentication/__pycache__/*
+
+src/apartments/__pycache__/*
+
+src/housing/__pycache__/*
+
+src/users/__pycache__/*
+
+
+
+
