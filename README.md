@@ -10,7 +10,7 @@ Plusieurs clients terminaux peuvent se connecter à l'API: Un backoffice pour le
 ![Static Badge](https://img.shields.io/badge/version%20%3A%201.0.0-blue)
 ![Build with Python](https://img.shields.io/badge/Built%20with-Python-blue)
 [![Generic badge](https://img.shields.io/badge/test-test-<BLUE>.svg)](https://shields.io/)
-![Last Commit](https://img.shields.io/github/last-commit/Mustapha/Open-source-it)
+![Last Commit](https://img.shields.io/github/last-commit/DjouaherRachid/Open-Source-it)
 
 ## Tester les APIs et Accéder à l'Interface Django Administration
 
