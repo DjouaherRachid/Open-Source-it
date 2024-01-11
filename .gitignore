@@ -24,3 +24,6 @@ db.sqlite3
 # Fichiers spécifiques à l'éditeur
 *.sublime-project
 *.sublime-workspace
+
+#Environnement virtuel
+myenv/*
