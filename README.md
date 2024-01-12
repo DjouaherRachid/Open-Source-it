@@ -6,6 +6,7 @@
 <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" height="20">
 <img src="https://img.shields.io/badge/CI-Passing-brightgreen" height="20">
 
+[Documentation du Projet](https://votreutilisateur.github.io/votrerepo/)
 
 Dans ce projet, nous avons "open-sourcé" le projet de développement Web API du 1er semestre de 2I à l'ESGI, intitulé "RESTpasTrop".
 
