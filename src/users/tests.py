@@ -23,5 +23,10 @@ class UserAdminTest(TestCase):
         user_admin = UserAdmin(get_user_model(), admin.site)
         self.assertEqual(user_admin.list_display, expected_list_display)
 
+
+
+sdfsdfsdsdfqsdgfiqurgiuqernginqsljinfdliqzeglinqlirsgnildfsngqzerisdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffqkmslfgkq,k,qsglkndfsgndskngrelqngdslfjgnrelqnlgkjdfqsgeqrgljkrqdngrqnegjkqerngqnreglknjeqrlnglqrengqnerglnqrlgnqrlgnlqrnglqergnerglkljjk
+
     # Ajoutez d'autres tests similaires pour les autres attributs et méthodes de UserAdmin
 
+guil
