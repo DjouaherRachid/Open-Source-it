@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open-Source-it</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        h1 {
+            color: #1a237e;
+        }
+
+        img {
+            margin-right: 5px;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        h2,
+        h3 {
+            color: #1a237e;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+
+        a {
+            color: #1a237e;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <h1>Open-Source-it</h1>
+
+    <div>
+        <img src="https://img.shields.io/github/last-commit/DjouaherRachid/Open-Source-it?style=flat-square&color=purple&labelColor=white" height="20">
+        <img src="https://img.shields.io/badge/version%20%3A%201.0.0-blue" height="20">
+        <img src="https://img.shields.io/badge/Built%20with-Python-blue" height="20">
+        <img src="https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray" height="20">
+        <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" height="20">
+        <img src="https://img.shields.io/badge/CI-Passing-brightgreen" height="20">
+    </div>
+
+    <section>
+        <p>Dans ce projet, nous avons "open-sourcé" le projet de développement Web API du 1er semestre de 2I à l'ESGI,
+            intitulé "RESTpasTrop".</p>
+
+        <p>Il s'agit d'un API web pour la solution logicielle d'une entreprise. L'entreprise en question gère des locations
+            d'appartement à court terme, généralement quelques jours. Plusieurs clients terminaux peuvent se connecter à
+            l'API: Un backoffice pour les administrateurs, une application mobile pour les propriétaires, un site web
+            publique pour les clients.</p>
+    </section>
+
+    <h2>Comment installer notre programme ou le mettre en production</h2>
+
+    <ol>
+        <li><strong>Cloner le Dépôt :</strong>
+            <ul>
+                <li>Ouvrez un terminal et exécutez la commande suivante pour cloner le dépôt :</li>
+            </ul>
+            <code>git clone https://github.com/DjouaherRachid/Open-Source-it.git</code>
+        </li>
+    </ol>
+
+    <h3>Tester les APIs et Accéder à l'Interface Django Administration</h3>
+
+    <p>Avant de commencer à tester les fonctionnalités de l'API et d'accéder à l'interface Django Administration, assurez-vous
+        d'installer les dépendances nécessaires en suivant ces étapes :</p>
+
+    <ol>
+        <li><strong>Configuration de l'environnement virtuel :</strong>
+            <ul>
+                <li>Il est recommandé d'utiliser un environnement virtuel pour isoler les dépendances de ce projet. Suivez
+                    les étapes ci-dessous pour créer et activer un environnement virtuel Python (venv) :</li>
+                <li>Ouvrez un terminal dans le répertoire du projet.</li>
+                <li>Tapez les commandes suivantes pour créer un nouveau environnement virtuel et l'activer :</li>
+            </ul>
+            <code>python -m venv venv</code>
+            <code>venv\bin\activate</code>
+        </li>
+
+        <li><strong>Installer les Dépendances :</strong>
+            <ul>
+                <li>Ouvrez un terminal dans le répertoire du projet.</li>
+                <li>Tapez la commande suivante pour installer les dépendances requises :</li>
+            </ul>
+            <code>pip install -r requirements.txt</code>
+            <p>Cela garantira que toutes les bibliothèques nécessaires sont installées.</p>
+        </li>
+
+        <li><strong>Lancer le Serveur Django :</strong>
+            <ul>
+                <li>Toujours dans le terminal du projet, tapez la commande suivante pour démarrer le serveur Django :</li>
+            </ul>
+            <code>python manage.py runserver</code>
+            <p>Cela lancera le serveur local à l'adresse http://127.0.0.1:8000/.</p>
+        </li>
+
+        <li><strong>Importer la Collection Postman :</strong>
+            <ul>
+                <li>Ouvrez Postman.</li>
+                <li>Cliquez sur "Import" dans le coin supérieur gauche.</li>
+                <li>Sélectionnez "Importer le fichier" et choisissez le fichier YAML fourni.</li>
+                <li>La collection et les requêtes associées seront importées dans votre environnement Postman.</li>
+            </ul>
+        </li>
+
+        <li><strong>Créer un Super Utilisateur :</strong>
+            <ul>
+                <li>Dans le même terminal que précédemment, tapez la commande suivante pour créer un super utilisateur :</li>
+            </ul>
+            <code>python manage.py createsuperuser</code>
+            <p>Suivez les instructions pour fournir les informations requises.</p>
+        </li>
+
+        <li><strong>Accéder à l'Interface Django Administration :</strong>
+            <ul>
+                <li>Ouvrez votre navigateur web et accédez à l'URL http://127.0.0.1:8000/admin/.</li>
+                <li>Connectez-vous en utilisant les données du super utilisateur que vous venez de créer. Par exemple :
+                    <ul>
+                        <li>Nom d'utilisateur : admin</li>
+                        <li>Mot de passe : admin</li>
+                    </ul>
+                </li>
+                <p>Vous aurez ainsi accès à l'interface Django Administration pour gérer les données de l'application.</p>
+            </ul>
+        </li>
+    </ol>
+
+    <h3>Comment contribuer au projet</h3>
+
+    <p>Maintenant que vous pouvez correctement utiliser et tester notre API, vous pouvez commencer à contribuer à notre
+        projet ! Suivez ces étapes simples pour participer au développement et améliorer notre application :</p>
+
+    <ol>
+        <li><strong>Fork du projet :</strong>
+            <ul>
+                <li>Sur la page principale du <a href="https://github.com/DjouaherRachid/Open-Source-it">dépôt
+                        GitHub</a>, cliquez sur le bouton "Fork" en haut à droite de la page. Cela créera une copie du
+                    projet sur votre propre compte GitHub.</li>
+            </ul>
+        </li>
+
+        <li><strong>Clonez votre fork :</strong>
+            <ul>
+                <li>Ouvrez votre fork sur GitHub.</li>
+                <li>Cliquez sur le bouton vert "Code" et copiez l'URL du dépôt.</li>
+                <li>Ouvrez une invite de commande ou un terminal et exécutez la commande suivante pour cloner votre fork
+                    localement :</li>
+            </ul>
+            <code>git clone https://github.com/VOTRE_UTILISATEUR/Open-Source-it.git</code>
+        </li>
+
+        <li><strong>Créez une branche de fonctionnalité :</strong>
+            <ul>
+                <li>Avant de commencer à travailler, créez une nouvelle branche pour votre fonctionnalité ou correction
+                    :</li>
+            </ul>
+            <code>git checkout -b nom-de-votre-branche</code>
+        </li>
+
+        <li><strong>Effectuez les modifications :</strong>
+            <ul>
+                <li>Faites les modifications nécessaires dans le code. N'oubliez pas de suivre les meilleures pratiques de
+                    codage et les conventions du projet.</li>
+            </ul>
+        </li>
+
+        <li><strong>Testez vos modifications :</strong>
+            <ul>
+                <li>Assurez-vous que vos modifications ne provoquent pas d'erreurs. Vous pouvez exécuter les tests
+                    existants en utilisant la commande :</li>
+            </ul>
+            <code>python manage.py test</code>
+        </li>
+
+        <li><strong>Commit et poussez les modifications :</strong>
+            <ul>
+                <li>Une fois satisfait des modifications, effectuez un commit et poussez les changements vers votre fork
+                    :</li>
+            </ul>
+            <code>
+                git add .
+                git commit -m "Description de vos modifications"
+                git push origin nom-de-votre-branche
+            </code>
+        </li>
+
+        <li><strong>Soumettez une demande de tirage (Pull Request) :</strong>
+            <ul>
+                <li>Rendez-vous sur la page de votre fork sur GitHub.</li>
+                <li>Cliquez sur le bouton "Compare & pull request" à côté de votre nouvelle branche.</li>
+                <li>Remplissez le formulaire de demande de tirage en fournissant des informations claires sur vos
+                    modifications.</li>
+            </ul>
+        </li>
+
+        <li><strong>Attendez la revue :</strong>
+            <ul>
+                <li>Votre demande de tirage sera examinée par les mainteneurs du projet. Soyez prêt à répondre aux
+                    commentaires et apporter des modifications si nécessaire.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <p>En suivant ces étapes, vous contribuerez efficacement à notre projet. Merci pour votre engagement et vos efforts
+        pour améliorer notre application !</p>
+
+</body>
+
+</html>
